@@ -1,8 +1,6 @@
 name: Publish
 
-on:
-  release:
-    types: [published]
+on: [push]
 
 env:
   graalvm_version: '22.0.0.2'
